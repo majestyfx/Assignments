@@ -1,0 +1,63 @@
+body{
+    background-image: url("https://assets.hongkiat.com/uploads/100-absolutely-beautiful-nature-wallpapers-for-your-desktop/blue-sea-sunset.jpg");
+   background-color: #14202c;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+      padding: 70px 0px 70px;
+   }
+   .signup-box{
+     width: 360px;
+     height: 900px;
+     margin: auto;
+     background-color: #d8e2eb;
+     border-radius: 3px;
+   }
+ .login-box{
+     width: 360px;
+     height: 320px;
+     margin: auto;
+     background-color: #d8e2eb;
+     border-radius: 3px;
+   }
+   h1{
+     text-align: center;
+     padding-top: 30px;
+   }
+   h4{
+     text-align: center;
+   }
+   form {
+   width: 300px;
+   margin-left: 20px;
+   }
+   form label{
+     display: flex;
+     margin-top:10px;
+     font-size: 18px;
+ }
+   form input{
+     width: 100%;
+     padding: 10px;
+     border: none;
+     border: 1px solid rgb(113, 220, 101);
+     border-radius: 10px;
+   }
+ input[type="button"]{
+   margin-top: 15px;
+   background-color: #ffffff;
+ }
+ p{
+ text-align: center;
+   padding-top: 0px;
+ }
+ .para-2{
+   color: white;
+   margin-top: 25px;
+   padding-top: 15px; 
+   text-align:center;
+ }
+ .para-2 a{
+   color: #f50e25;
+ }
+ .image{
+   padding-left: 130px;
