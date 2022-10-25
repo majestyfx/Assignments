@@ -7,10 +7,12 @@
     box-sizing: border-box;
     font-family: 'lexend-deca',sans-serif;
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 html{
-    font-size: 62.5%;
+    font-size: 10px;
 }
-/*Variables*/
 :root{
 --Brightorange: hsl(31, 77%, 52%);
 --Darkcyan: hsl(184, 100%, 22%);
@@ -96,6 +98,11 @@ h2{
     border: none;
     width: 50%;
 }
+.btn:hover{
+   transform: scale(1.2);
+    border: 2px solid transparent;
+   
+}
 .div-3{
     background-color: var(--Verydarkcyan);
     border-bottom-right-radius:0.6rem;
@@ -117,23 +124,25 @@ h2{
     background-color: var(--Brightorange);
     color: var(--Transparentwhite);
     border: 2px solid var(--Transparentwhite);
-
+ cursor: pointer;
 }
 .btn:hover{
     background-color: var(--Darkcyan);
     color: var(--Transparentwhite);
     border: 2px solid var(--Transparentwhite);
+   cursor: pointer;
 }
 .btn-primarys:hover{
     background-color: var(--Verydarkcyan);
     color: var(--Transparentwhite);
     border: 2px solid var(--Transparentwhite);
+   cursor: pointer;
 }
-@media  screen and (max-width:930px) {
+@media  screen and (max-width:1030px) {
     body{
     }
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
     .wrapper{
         display: flex;
         flex-direction: column;
@@ -191,17 +200,18 @@ h2{
 }
 }
 .grid-container{
-  display:grid;
+  background-color: #0606f9;
+  display: grid;
  grid-template-areas: 
 'a a b'
 'c d d'
 'c e e';
 grid-template-columns:200px 90px 200px;
-grid-template-rows:210px 90px 120px;
+grid-template-rows:200px 90px 120px;
 gap:15px;
-padding:20px;
+padding:35px;
 justify-content:center;
-margin-top:80px;				  
+margin-top:30px;				  
 }
 .div1{
   grid-area: a;
