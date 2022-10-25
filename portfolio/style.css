@@ -1,0 +1,329 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+    background-color: rgb(153, 146, 136);
+}
+.hero{
+  background-color: rgb(153, 146, 136);
+  background-size:flex ;
+  background-position:top ;
+  height: 700px;
+  width: 100%;
+}
+nav{
+ display:flex ;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 45px;
+ padding-left: 8%;
+ padding-right: 8%;
+ padding-bottom: 200px;
+}
+.logo{
+ color: #f11414;
+font-size: 55px;
+ letter-spacing: 1px;
+ cursor: pointer;
+ text-align: top;
+}
+span{
+ color: rgb(241, 236, 236);
+}
+nav ul li{
+ list-style-type:none ;
+ display: inline-block;
+ padding: 10px 20px;
+}
+nav ul li a{
+  color: #d8c5cd;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+ color: #c5bcc0;
+transition: .4s;
+}
+.btn{
+ color: #ffffff;
+ text-decoration: none;
+ background-color: #e00e0e ;
+ padding-top: 20px 45px;
+ border-radius: 75px;
+ transition: .4s;
+ border: 2px solid transparent;
+ font-weight: bold;
+}
+.btn:hover{
+ transform: scale(1.2);
+  border: 2px solid;
+}
+.buton{
+ color: rgb(247, 15, 15);
+ text-decoration: none;
+ padding-top: 20px 45px;
+ border-radius: 75px;
+ transition: .4s;
+ border: 2px solid transparent;
+ font-weight: bold;
+font-size: 20px;
+}
+.btn:hover{
+ transform: scale(1.2);
+  border: 2px solid;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1{
+  color: rgb(247, 15, 15);
+  font-size: 45px;
+  margin: 20px 0px 20px ;
+}
+h3{
+  color: rgb(10, 10, 10);
+  font-size: 25px;
+  margin-bottom: 20px ;
+}
+h4{
+  color: rgb(37, 39, 39);
+  font-size: 25px;
+  margin-bottom: 20px ;
+}
+.newsletter form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+.newsletter form input:first-child {
+display: inline-block;
+width: 60%;
+padding: 14px 130px 14px 15px ; 
+border: 2px solid #d32768;
+outline: none;
+border-radius:30px; 
+}
+.newsletter form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-radius: 20px; 
+  background-color: #d32768 ;
+  color:white ;
+  padding: 10px 35px; 
+  box-shadow: 0px 0px 5px ;
+  top: 6px;
+  right: 6px;
+}
+.about{
+width: 100%;
+padding: 100px 0px; 
+background-color: rgb(153, 146, 136);
+}
+.about image{
+height: auto;
+width: 150px;
+}
+.about-text{
+height: 120px 20px;
+width: 680px;
+}
+.main{
+  width: 1130px;
+  margin: 0 auto;
+  max-width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2{
+  color: rgb(139, 16, 16);
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom:20px ;
+  padding-left: 30px;
+
+}
+.about-text h5{
+  color: rgb(163, 109, 27);
+  font-size: 53px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  padding-left: 30px;
+}
+.about-text p{
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom:20px ;
+  padding-left: 30px;
+  letter-spacing: 1px;
+}
+button{
+  color:  white;
+  text-decoration: none;
+  background-color: #d32768;
+  border: 2px solid transparent;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: .4s;
+  padding: 13px 30px ;
+  padding-left: 30px;
+  animation: alternate-reverse;
+}
+button:hover{
+  background: transparent;
+  border: 2px solid;
+}
+.services{
+background: rgb(153, 146, 136);
+width: 100%;
+padding: 13px 30px ;
+}
+.title h2{
+color: #f11414;
+width: 100%;
+font-size: 75px;
+margin: 20px ;
+text-align: center;
+}
+.box{
+display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 250px;
+}
+.card{
+height: 505px ;
+width: 335px;
+padding: 20px 15px;
+background: rgba(214, 209, 201, 0.589);
+border-radius: 20px;
+position: relative;
+margin:15px;
+overflow: hidden ;
+text-align: center;
+}
+.card i{
+font-size: 50px;
+display: block;
+text-align: center;
+margin: 20px 0px;
+padding-top: 30px;
+}
+h5{
+color: #a80808;
+font-size: 23px;
+margin-bottom: 15px;
+padding-top: 30px;
+}
+.pra p{
+color: black;
+font: size 16px; ;
+line-height: 27px; ;
+margin: bottom 25px;
+}
+.card .button{
+color:  white;
+text-decoration: none;
+background-color: #d32768;
+border: 2px solid transparent;
+font-weight: bold;
+border-radius: 30px;
+transition: .4s;
+padding: 5px 5px ;
+padding-left: 10px;
+padding-top: 0px;
+}
+.card .button:hover{
+background: transparent;
+  border: 2px solid;
+  cursor: pointer;
+}
+.contact-me{
+height: 365px ;
+width: 100%;
+display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(153, 146, 136);
+}
+.contact-me p{
+  color: white;
+  font-size: 30px; 
+  font-weight: bold;
+  margin-bottom: 25px;
+  }
+  .contact-me .button-two{
+    color:  white;
+    text-decoration: none;
+    background-color: #d32768;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+    padding: 5px 5px ;
+    padding-left: 3px;
+    padding-top: 5px;
+  }
+  .contact-me .button-two:hover{
+    background: transparent;
+    border: 2px solid;
+    cursor: pointer;
+  }
+  footer{
+height: 365px ;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+justify-content: center;
+background-color: rgb(153, 146, 136);
+}
+footer p:nth-child(1){
+color: white;
+font-size: 30px; 
+font-weight: bold;
+margin-bottom: 25px;
+}
+footer p:nth-child(2){
+color: white;
+font-size: 30px; 
+line-height: 30px;
+margin-bottom: 25px;
+width: 1000px;
+}
+.social{
+display: flex;
+}
+.social a{
+height: 65px ;
+width: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #d32768;
+border-radius: 50%;
+margin: 22px 10px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+.social a:hover{
+transform: scale(1.3);
+transition: .3s;
+}
+.end{
+position: absolute;
+color: #d32768;
+bottom: 35px;
+font-size: 14px;
+}
+
